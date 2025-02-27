@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/index.css">
+  <title>To Do - Main</title>
+</head>
+<body>
+  <h1>Add a task</h1>
+  <div id="form-div">
+    <form action="POST">
+      <div class="input">
+        <input type="text" id="addTask" placeholder="Your task">
+      </div>
+      <button type="submit"><img src="/addTask.svg" alt="add"></button>
+    </form>
+  </div>
+
+
+  <div id="allTasks">
+    <h1>All tasks</h1>
+    <div class="task-list">
+      <ul>
+        <li>
+          <input type="checkbox" name="task-check" id="task-check">
+          <span class="task-name">Go to the school</span>
+          <button class="delete-btn">Delete</button>
+        </li>
+      </ul>      
+    </div>
+  </div>
+  
+</body>
+</html>
