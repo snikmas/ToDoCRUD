@@ -16,7 +16,7 @@
       <div class="input">
         <input type="text" id="addTask" placeholder="Your task">
       </div>
-      <button type="submit"><img src="/addTask.svg" alt="add"></button>
+      <button id="delete" type="submit"><img src="/addTask.svg" alt="add"></button>
     </form>
   </div>
 
@@ -26,9 +26,18 @@
     <div class="task-list">
       <ul>
         <li>
-          <input type="checkbox" name="task-check" id="task-check">
-          <span class="task-name">Go to the school</span>
-          <button class="delete-btn">Delete</button>
+          <div>
+            <input type="checkbox" name="task-check" id="task-check">
+            <span class="task-name">Go to the school</span>
+          </div>
+            <button class="delete-btn"><img src="/remove.svg"></button>
+        </li>
+        <li>
+          <div>
+            <input type="checkbox" name="task-check" id="task-check">
+            <span class="task-name">Go to the school</span>
+          </div>
+            <button class="delete-btn"><img src="/remove.svg"></button>
         </li>
       </ul>      
     </div>
