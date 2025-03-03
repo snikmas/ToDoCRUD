@@ -28,6 +28,7 @@ body {
 }
 
 form {
+  padding: 7vh 0;
   display: flex;
   justify-content: center;
 
@@ -54,3 +55,58 @@ input {
   border-bottom-right-radius: 30px;
   padding:10px 14px;
 }
+
+
+
+/* ALL TASKS */
+
+#allTasks {
+  padding:5vh 0;
+  background-color: blanchedalmond;
+
+}
+
+#allTasks h1 {
+  line-height: 2em;
+}
+
+
+/* lists */
+
+/* don't touch */
+.ul-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+ul {
+  background-color: aqua;
+  width: 60em;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+}
+
+ul li{
+  border: 1px solid darkorange;
+  padding:20px 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+li div {
+  border: 2px solid darkblue;
+  width: 100%;
+  text-align: start;
+}
+
+li > *{
+  border: 2px solid darkblue;
+}
+
+
