@@ -7,7 +7,9 @@
 
 body {
   background-color: rgb(232, 232, 232);
-  align-items: center;
+}
+
+h1 {
   text-align: center;
 }
 
@@ -31,7 +33,6 @@ form {
   padding: 7vh 0;
   display: flex;
   justify-content: center;
-
 }
 
 input {
@@ -60,6 +61,13 @@ input {
 
 /* ALL TASKS */
 
+.taskDone{
+  max-width:fit-content;
+  margin: 10px 10px;
+  
+}
+
+
 #allTasks {
   padding:5vh 0;
   background-color: blanchedalmond;
@@ -83,8 +91,7 @@ input {
 
 
 ul {
-  background-color: aqua;
-  width: 60em;
+  width: 40em;
   list-style: none;
 
   display: flex;
@@ -92,21 +99,28 @@ ul {
 }
 
 ul li{
+  font-size: 20px;
   border: 1px solid darkorange;
-  padding:20px 30px;
+  padding:2px 20px;
 
   display: flex;
   justify-content: space-between;
 }
 
 li div {
-  border: 2px solid darkblue;
-  width: 100%;
-  text-align: start;
+  /* border: 2px solid darkblue; */
+  width:100%;
+  align-items: center;
+  display: flex;
 }
 
-li > *{
-  border: 2px solid darkblue;
+.remove {
+  border-radius: 20px 20px;
+
+  padding:4px;
+  display: flex;
+
 }
+
 
 
